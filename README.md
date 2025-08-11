@@ -2,6 +2,10 @@
 
 Work-in-progress wiki page for Roblox game Road to Gramby's by Mumble Games because the current wiki is not great.
 
+Most likely will be a lightweight website maintained by myself (or a team!) to keep things simple.
+
+Also just trying to learn more about frontend.
+
 # MIT License
 
 Copyright (c) 2025 campy7
