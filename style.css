@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 129, 129);
+  background-color: white;
 }
 
 h1 {
@@ -8,5 +8,5 @@ h1 {
 }
 
 p {
-  color: green;
+  color: red;
 }
