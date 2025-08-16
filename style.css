@@ -4,7 +4,7 @@ body {
 
 @font-face {
   font-family: ShinGo;
-  src url(assets/fontshingo/ATTFShinGoProRegular.ttf)
+  src url(assets/fontshingo/ATTFShinGoProRegular.ttf);
 }
 
 h1 {
