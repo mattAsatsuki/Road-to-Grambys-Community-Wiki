@@ -1,5 +1,10 @@
 body {
-  background-color: white;
+  background-image: linear=gradient(black, rgb(32, 32, 32))
+}
+
+@font-face {
+  font-family: ShinGo;
+  src url(assets/fontshingo/ATTFShinGoProRegular.ttf)
 }
 
 h1 {
@@ -8,5 +13,6 @@ h1 {
 }
 
 p {
-  color: red;
+  color: white;
+  font: ShinGo
 }
