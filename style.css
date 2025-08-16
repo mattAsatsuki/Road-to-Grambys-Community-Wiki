@@ -1,18 +1,40 @@
 body {
-  background-image: linear=gradient(black, rgb(32, 32, 32))
+  background-image: linear-gradient(black, rgb(32, 32, 32));
+  background-attachment: fixed;
 }
 
+/*
 @font-face {
-  font-family: ShinGo;
-  src url(assets/fontshingo/ATTFShinGoProRegular.ttf);
-}
+  font-family: Test;
+  src: url("assets\zurich-extra-black-regular_qiiMz\Zurich Extra Black Regular\Zurich Extra Black Regular.otf") format("opentype");
+  font-style: normal;
+}*/
 
 h1 {
-  color: black;
+  color: white;
+  font-family: "Arial Black", sans-serif;
+  font-size: 200px;
+  margin-top: -50px;
+  margin-bottom: 0px;
+  margin-left: 0px;
   /*margin-left: 20px;*/
 }
 
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
 p {
-  color: white;
-  font: ShinGo
+  color: rgb(214, 214, 214);
+  font-family: "Arial Black", sans-serif;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 12px;
 }
