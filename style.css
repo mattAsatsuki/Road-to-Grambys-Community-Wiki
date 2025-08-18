@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(black, rgb(32, 32, 32));
+  background-image: linear-gradient(to right, black, rgb(32, 32, 32));
   background-attachment: fixed;
 }
 
@@ -9,16 +9,6 @@ body {
   src: url("assets\zurich-extra-black-regular_qiiMz\Zurich Extra Black Regular\Zurich Extra Black Regular.otf") format("opentype");
   font-style: normal;
 }*/
-
-h1 {
-  color: white;
-  font-family: "Arial Black", sans-serif;
-  font-size: 200px;
-  margin-top: -50px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  /*margin-left: 20px;*/
-}
 
 .footer {
   text-align: center;
@@ -31,10 +21,35 @@ h1 {
   font-family: Arial, sans-serif;
 }
 
+div.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.rectangle {
+  width: 100px;
+  height: 100%;
+  margin-left: 0px;
+  background: linear-gradient(#4F3B66, #4B214D);
+}
+
+h1 {
+  color: white;
+  font-family: "Arial Black", sans-serif;
+  font-size: 10em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 125px;
+  margin-right: 25px;
+  /*margin-left: 20px;*/
+}
+
 p {
   color: rgb(214, 214, 214);
-  font-family: "Arial Black", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 25px;
   margin-top: 0px;
-  margin-left: 12px;
+  margin-left: 125px;
+  margin-right: 25px;
 }
