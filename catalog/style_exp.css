@@ -53,6 +53,16 @@ h1 {
     /*margin-left: 20px;*/
 }
 
+form {
+    color: rgb(214, 214, 214);
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 55px;
+    /*margin-left: 125px;*/
+    margin-right: 25px;
+}
+
 p {
     color: rgb(214, 214, 214);
     font-family: "Arial", sans-serif;

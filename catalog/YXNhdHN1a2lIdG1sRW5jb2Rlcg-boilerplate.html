@@ -22,6 +22,10 @@ tranquilbenji9898's idea for item subpages:
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style_exp.css">
+
+        <script>
+            
+        </script>
     </head>
     <body>
         <ul class="navbar">
@@ -32,12 +36,56 @@ tranquilbenji9898's idea for item subpages:
         </ul>
         <div id="entry">
             <h1 id="title">Catalog Boilerplate Editor</h1>
-            <p id="content">A place to test experimental themes and to create subpages easily. The current theme applied to this page is <em>style_exp.css</em> and is on version <b>0.1</b> as of deployment. There is no extensive meta tags on this page to allow for higher focus on other key web elements.
+            <p id="content">A place to test experimental themes and to create subpages easily. The current theme applied to this page is <em>style_exp.css</em> and is on version <b>0.2</b> as of deployment. There is no extensive meta tags on this page to allow for higher focus on other key web elements.
             <br><br>
-            This page is also made for the strict purpose of creating new subpages on <a href="https://roadtogrambys-communal.cc/catalog">roadtogrambys-communal.cc/catalog</a>, which can easily be pushed through GitHub Desktop (campy7's or other GitHub contributor's lovely job!).</p> 
+            This page is also made for the strict purpose of creating new subpages on <a href="https://roadtogrambys-communal.cc/catalog">roadtogrambys-communal.cc/catalog</a>, which can easily be pushed through GitHub Desktop (which is campy7's or other GitHub contributor's lovely job!).</p> 
         </div>
         <div id="htmlencoder">
             <br><h1>Editor</h1>
+            <p>This is a simple HTML formatter/compiler that takes text and images and puts them into a predetermined format. These formats are made to work with <em>style_exp.css</em> version <b>0.2</b> and above (until it's entirely overhauled).</p>
+            <form id="theEncoder">
+                <input type="submit" value="Encode to format"style="font-family: Arial, sans-serif;
+                    font-size: 25px;
+                    margin-top: 0px;
+                    margin-right: 25px;"> <br><br>
+                <textarea id="multiliner" name="multiliner" style="font-family: Arial, sans-serif;
+                    font-size: 25px;
+                    margin-top: 0px;
+                    margin-right: 25px;
+                    width: 2000px;
+                    height: 2000px">
+Please use the following syntax:
+
+FOR FONT/INPUT STYLES:
+<t>title<t> (will be put at top regardless)
+<a>author line<a> (will be put at top regardless)
+<h>headings<h>
+
+<b>bold<b>
+<i>italics<i>
+<u>underline<u>
+
+
+FOR IMAGES:
+<insert image.png>
+(note: please also include separate image file when sending for publishing)
+
+
+FOR TABLES:
+[header1,   header2,
+item1,      item2,
+item3,      item4
+etc...]
+                </textarea>
+                <!--
+                <input type="text" id="fhtml" name="fhtml" value="Hello world!" style="font-family: Arial, sans-serif;
+                    font-size: 25px;
+                    margin-top: 0px;
+                    margin-right: 25px;
+                    width: 1000px;
+                    height: auto"><br><br>
+                -->
+            </form>
         </div>
         <p id="watermark" class="footer">campy7 2025</p>
     </body>
