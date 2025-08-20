@@ -31,7 +31,7 @@ img.navbutton {
     width: 100%;
     margin-bottom: 5px;
     margin-left: 0px;
-    font-size: 15px;
+    font-size: 9px;
     font-family: Arial, sans-serif;
 }
 
@@ -44,7 +44,7 @@ div.fixed {
 h1 {
     color: white;
     font-family: "Arial Black", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 12px;
     margin-bottom: 0px;
     margin-left: 55px;
@@ -56,7 +56,7 @@ h1 {
 form {
     color: rgb(214, 214, 214);
     font-family: "Arial", sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 0px;
     margin-left: 55px;
     /*margin-left: 125px;*/
@@ -66,7 +66,7 @@ form {
 p {
     color: rgb(214, 214, 214);
     font-family: "Arial", sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 0px;
     margin-left: 55px;
     /*margin-left: 125px;*/
