@@ -1,1 +1,74 @@
-d
+body {
+    background-image: linear-gradient(to right, black, rgb(32, 32, 32));
+    background-attachment: fixed;
+}
+
+ul.navbar {
+    list-style-type: none;
+    width: 50px;
+    height: auto;
+    position: fixed;
+    margin-top: 0px; /*oml i hate css even if it's c based im going to kill i had to figure this solution out BY MYSELF*/
+    margin-bottom: 0px; /*stack overflow SUCKS. IT WAS SO SIMPLE GRAAAHHHH*/
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(#4F3B66, #4B214D);
+}
+
+img.navbutton {
+    width: 50px;
+    height: auto; 
+    margin-top: 25px;
+}
+
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-size: 9px;
+    font-family: Arial, sans-serif;
+}
+
+div.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: white;
+    font-family: "Arial Black", sans-serif;
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 55px;
+    /*margin-left: 125px;*/
+    margin-right: 25px;
+    /*margin-left: 20px;*/
+}
+
+form {
+    color: rgb(214, 214, 214);
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 55px;
+    /*margin-left: 125px;*/
+    margin-right: 25px;
+}
+
+p {
+    color: rgb(214, 214, 214);
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 55px;
+    /*margin-left: 125px;*/
+    margin-right: 25px;
+}
